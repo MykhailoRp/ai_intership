@@ -6,7 +6,7 @@ import sys
 import util_functions as uf
 from util_variables import *
 
-epoch_num = sys.argv[1] if len(sys.argv) >= 1 else 5
+epoch_num = sys.argv[1] if len(sys.argv) >= 2 else 5
 model_checkpoint = sys.argv[2] if len(sys.argv) >= 3 else None
 fitting_directory = sys.argv[3] if len(sys.argv) >= 4 else "fitting_data"
 
